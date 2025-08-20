@@ -1,2 +1,144 @@
 # Joshika-project1
 This website shows my resume page using HTML/CSS.
+
+<html>
+    <head>
+        <body>
+        <style>
+            .div1{
+                height: max-content;width: max-width;border:4px solid black
+            }
+            .h1{
+                color: black;
+                text-align: center;  /* ✅ centers heading */
+                padding-left: 0; 
+            }
+            .h3{
+                padding-left: 15px;
+
+            }
+            .p{
+                padding-left: 18px;text-align: justify;padding-right: 8px
+            }
+            .h11{
+                padding-left: 15px;
+            }
+            .h22{
+                padding-left: 15px;
+
+            }
+            .h33{
+                 flex-wrap: wrap;
+                box-sizing: border-box;  
+                display: flex;
+                justify-content: space-between;  /* keeps year to the right */
+                align-items: center;  
+                font-style: italic;
+                font-style: bold;
+            }
+               
+            
+            .h44{
+                padding-left: 360px;
+                font-weight: bold;
+                font-style: italic;
+            }
+            .h55{
+                padding-left: 15px;
+                
+            }
+            .h66{
+                padding-left: 390px;
+                font-weight: bold;
+                font-style: italic;
+
+
+            }
+
+            @media screen and (max-width: 480px){
+                div1{
+                    width: max-width;background-color: antiquewhite;
+                }    
+            }
+            
+            @media screen and (max-width:200px){
+           .h1{
+               color: black;
+               text-align: center;  /* ✅ centers heading */
+            padding-left: 0; 
+            }
+            }
+            @media screen and (max-width:480px){
+           .h3{
+                padding-left: 15px;
+
+            }
+        }
+            @media screen  and(max-width:480px){
+                .h33{
+                flex-wrap: wrap;
+                box-sizing: border-box;  
+                display: flex;
+                justify-content: space-between;  /* keeps year to the right */
+                align-items: center;  
+            }
+            }
+            
+            
+        </style>
+        <div class="div1">
+        <div><h1 class="h1">RESUME</h1></div>
+        <h3 class="h3">OBJECTIVE</h3>
+        <p class="p">To leverage my skills in front-end and back-end web development to build responsive, user-friendly, and efficient
+web applications, while continuously learning new technologies to deliver innovative digital solutions that meet
+business goals and enhance user experience.</p>
+    
+        <h3 class="h11">ACADAMIC BACKGROUND</h3>
+        <div>
+        <h5 class="h22">B.E Electrical and Electronic Engineering -  <i>  CGPA: 8.5 </i>
+        <span class="h33">2025</span></h5>
+        </div>
+        <div><h5 class="h55">HSC (PCM),Karaikudi Maharishi Vidhya manndir -<i> Percentage: 88% </i>
+        <span class="h33">2021</span><h5>
+        </div>
+        <div><h5 class="h55">SSLC ,Karaikudi Maharishi Vidhya manndir -<i> Percentage: 85% </i>
+        <span class="h33">2020</span></h5>
+        </div>
+        <h3 class="h11">TECHNICAL SKILLS</h3>
+        <li class="h55">
+            MS Excel
+        </li>
+        <li class="h55">
+            Sql
+        </li>
+        <li class="h55">
+            HTML/CSS
+        </li>
+        <li class="h55">
+            Javascript[Reactjs]
+        </li>
+        <li class="h55">
+            Python
+        </li>
+        <h3 class="h11">PROFFESIONAL MEMBERSHIP</h3>
+        <li class="h55">IETE</li>
+        <h3 class="h11">PROFFESIONAL TRAINING AND PROJECTS</h3>
+        <h4 class="h11">Full stack Development - Besant Technologies, Velechery</h4>
+        <li class="h55">Completed full stack training focusing on React for front-end and MySQL for back-end. Built and deployed
+dynamic web apps with user authentication and CRUD functionality</li>
+        <h3 class="h11">Movie Ticket Booking Database System</h3>
+        <li class="h55">Developed a MySQL-based movie ticket booking system managing show details, theatre screens, and seat
+availability.</li>
+        <li class="h55">Handled bookings by updating seat status and maintaining customer and transaction records.</li>
+        <h3 class="h11">ONLINE CERTIFICATIONS</h3>
+        <li class="h55">Enterpreneurship - NPTEL</li>
+        <li class="h55">IOT - NPTEL</li>
+        <h3 class="h11">EVENTS PARTICIPATED AND CERTIFIED</h3>
+        <li class="h55">Full Stack Development Certification, Besant Technologies, 2025</li>
+        <li class="h55">SQL Certification, Besant Technologies, 2025</li>
+        <li class="h55">Android on raspberry pi</li>
+        <li class="h55">New Energy</li>
+
+        </body>
+    </head>
+</html>
