@@ -10,14 +10,14 @@ This website shows my resume page using HTML/CSS.
             }
             .h1{
                 color: black;
-                text-align: center;  /* ✅ centers heading */
+                text-align: center;  
                 padding-left: 0; 
             }
             .h3{
                 padding-left: 15px;
 
             }
-            .p{
+.p{
                 padding-left: 18px;text-align: justify;padding-right: 8px
             }
             .h11{
@@ -27,8 +27,8 @@ This website shows my resume page using HTML/CSS.
                 padding-left: 15px;
 
             }
-            .h33{
-                 flex-wrap: wrap;
+.h33{
+                flex-wrap: wrap;
                 box-sizing: border-box;  
                 display: flex;
                 justify-content: space-between;  /* keeps year to the right */
@@ -38,7 +38,7 @@ This website shows my resume page using HTML/CSS.
             }
                
             
-            .h44{
+.h44{
                 padding-left: 360px;
                 font-weight: bold;
                 font-style: italic;
@@ -46,22 +46,21 @@ This website shows my resume page using HTML/CSS.
             .h55{
                 padding-left: 15px;
                 
-            }
+ }
             .h66{
                 padding-left: 390px;
                 font-weight: bold;
                 font-style: italic;
 
+ }
 
-            }
-
-            @media screen and (max-width: 480px){
+ @media screen and (max-width: 480px){
                 div1{
                     width: max-width;background-color: antiquewhite;
                 }    
             }
             
-            @media screen and (max-width:200px){
+@media screen and (max-width:200px){
            .h1{
                color: black;
                text-align: center;  /* ✅ centers heading */
@@ -72,9 +71,9 @@ This website shows my resume page using HTML/CSS.
            .h3{
                 padding-left: 15px;
 
-            }
+ }
         }
-            @media screen  and(max-width:480px){
+@media screen  and(max-width:480px){
                 .h33{
                 flex-wrap: wrap;
                 box-sizing: border-box;  
@@ -83,9 +82,7 @@ This website shows my resume page using HTML/CSS.
                 align-items: center;  
             }
             }
-            
-            
-        </style>
+</style>
         <div class="div1">
         <div><h1 class="h1">RESUME</h1></div>
         <h3 class="h3">OBJECTIVE</h3>
@@ -93,7 +90,7 @@ This website shows my resume page using HTML/CSS.
 web applications, while continuously learning new technologies to deliver innovative digital solutions that meet
 business goals and enhance user experience.</p>
     
-        <h3 class="h11">ACADAMIC BACKGROUND</h3>
+<h3 class="h11">ACADAMIC BACKGROUND</h3>
         <div>
         <h5 class="h22">B.E Electrical and Electronic Engineering -  <i>  CGPA: 8.5 </i>
         <span class="h33">2025</span></h5>
@@ -138,7 +135,6 @@ availability.</li>
         <li class="h55">SQL Certification, Besant Technologies, 2025</li>
         <li class="h55">Android on raspberry pi</li>
         <li class="h55">New Energy</li>
-
-        </body>
+      </body>
     </head>
 </html>
